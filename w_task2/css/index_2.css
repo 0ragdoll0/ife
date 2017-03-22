@@ -1,0 +1,180 @@
+body
+{
+	background: lightgrey;
+	color: black;
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+}
+
+header#nav
+{
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	margin-bottom: 20px;
+}
+/*.banner
+{
+	
+	background:papayawhip;
+	padding: 0px;
+	margin: 0px 20px 0px 20px;
+	height: 200px;
+	top: 0px;
+	left: 0px;
+}
+*/
+.banner img
+{
+	position: absolute;
+	left:60px;
+	top: 20px;
+	height: 60px;
+}
+
+.banner ul
+{
+	position: absolute;
+	right: 20px;
+	top: 30px;
+}
+.banner li
+{
+	float: left;
+	width: 100px;
+	height: 100px;
+	font-size: 14px;
+	list-style: none;
+}
+
+.banner a
+{
+	color: white;
+	text-decoration: none;
+}
+
+.articlestyle
+{
+	
+	background: white;
+	text-indent: 2em;
+	padding: 20px 40px;
+	border: solid 1px gainsboro;
+	margin: 0px 100px 20px 100px;
+	
+}
+
+
+.articlestyle h3
+{
+	color: grey;
+	font-family: "book antiqua";
+	font-size: 20px;
+}
+
+.articlestyle address
+{
+	color: grey;
+	font-family: "book antiqua";
+	font-size: 14px;
+	
+}
+
+.pics
+{
+	background: white;
+	padding: 20px 40px;
+	border: solid 1px gainsboro;
+	margin: 0px 100px 20px 100px;
+	text-indent: 40px;
+}
+
+.pic
+{
+	width: 400px;
+	height: 300px;
+	padding: 0px;
+	border: solid thin;
+	margin: 10px;
+	text-align: center;
+	text-indent: 0px;
+	font-size: 10px;
+}
+
+.pic img
+{
+	max-width: 100%;
+	max-height: 80%;
+}
+
+.pic p
+{
+	font-size: 10px;
+}
+
+.t1 td
+{
+	text-indent: 0px;
+	text-align: center;
+	font-size: 10px;
+	width: 25%;
+}
+
+
+.t1 th
+{
+	text-indent: 0px;
+	text-align: center;
+	background: grey;
+	color: white;
+	width: 25%;
+}
+
+.asidestyle
+{
+	background: white;
+	font-size: 14px;
+	padding: 20px 40px;
+	border: solid 1px gainsboro;
+	margin: 0px 100px 20px 100px;
+}
+
+.hint
+{
+	color: darkgrey;
+}
+
+.labeltd
+{
+	width: 40%;
+	text-align: right;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+.inputtd
+{
+	width: 60%;
+	text-align: left;
+	padding-bottom: 20px;
+}
+
+.buttonsub
+{
+	width: 100%;
+	background-color: plum;
+	color: white;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.copy
+{
+	width: 100%;
+	background: black;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
