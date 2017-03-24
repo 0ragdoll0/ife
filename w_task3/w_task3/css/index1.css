@@ -1,0 +1,76 @@
+body
+{
+	background: lightblue;
+}
+.container
+{
+	position: relative;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 20px;
+	border: groove 4px cadetblue;
+	background-color: transparent;
+	min-width: 50em;
+}
+.teamlogo
+{
+	float: left;
+	width: 200px;
+	height: 120px;
+	padding-left: 20px;
+	padding-top: 20px;
+	border: groove 3px lightblue;
+	background-color: transparent;	
+}
+.teamlogo img
+{
+	/*position: absolute;
+	left: 20px;
+	top: 20px;*/
+	width: 80px;
+}
+.teamlogo p
+{
+	/*position: absolute;
+	top: 20px;
+	right: 20px;*/
+	/*display: inline-block;*/
+	float: right;
+	padding-right: 40px;
+	font-family: "bookman old style";
+	font-size:14px ;
+}
+.teamintro
+{
+	margin-left: 240px;
+	margin-right: 140px;
+	border: groove 3px lightblue;
+	padding: 20px;
+	background-color: transparent;
+	text-indent: 2em;
+	line-height: 1.5em;
+	min-width: 4em;
+	
+}
+.solologo
+{
+	padding-top: 20px;
+	padding-left: 20px;
+	float: right;
+	width: 100px;
+	height: 420px;
+	border: groove 3px lightblue;
+	background-color: transparent;
+}
+.solologo img
+{
+	
+	height: 80px;
+	width: 80px;
+	margin-bottom: 20px;
+}
+.clearbox
+{
+	clear: both;
+}
