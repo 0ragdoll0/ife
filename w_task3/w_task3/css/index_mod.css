@@ -1,0 +1,74 @@
+ body {
+ 	min-width: 800px;
+ 	padding: 20px;
+ 	background: lightblue;
+ }
+ .ccat
+ {
+ 	padding: 20px;
+ 	border: groove 4px cadetblue;
+	background-color: transparent;
+ }
+ .main {
+ 	float: left;
+ 	width: 100%;
+ 	/*border: solid 1px black;*/
+ }
+ 
+ .main_body {
+ 	margin-left: 220px;
+ 	margin-right: 140px;
+ 	border: groove 3px lightblue;
+	padding: 20px;
+	background-color: transparent;
+	text-indent: 2em;
+	line-height: 1.5em;
+ 	min-width: 200px;
+ }
+ 
+ .left {
+ 	float: left;
+ 	width: 200px;
+ 	height: 120px;
+ 	/*padding: 20px;*/
+ 	margin-left: -100%;
+ 	border: groove 3px lightblue;
+	background-color: transparent;	
+ }
+ .left img
+ {
+ 	display: inline-block;
+ 	position: relative;
+ 	top: 20px;
+ 	left: 20px;
+ 	width: 80px;
+ }
+ .left p
+ {
+ 	float: right;
+ 	margin-top: 20px;
+ 	margin-right: 40px;
+	font-family: "bookman old style";
+	font-size:14px ;
+ }
+ 
+ .right {
+ 	float: left;
+ 	width: 120px;
+ 	height: 420px;
+ 	border: groove 3px lightblue;
+	background-color: transparent;
+ 	margin-left: -126px;
+ }
+ .right img
+ {
+ 	position: relative;
+ 	top:20px;
+ 	left: 20px;
+ 	margin-bottom: 20px;
+ 	width: 80px;
+ }
+ .clearbox
+{
+	clear: both;
+}
