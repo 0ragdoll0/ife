@@ -1,0 +1,218 @@
+body
+{
+	background:lightgrey;
+	min-width: 800px;
+	font-size: 20px;
+	padding: 0px;
+	margin: 0px;
+}
+
+header#nav
+{
+	position: relative;
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	padding: 0px;
+}
+/*.banner
+{
+	
+	background:papayawhip;
+	padding: 0px;
+	margin: 0px 20px 0px 20px;
+	height: 200px;
+	top: 0px;
+	left: 0px;
+}
+*/
+.banner img
+{
+	position: absolute;
+	left:60px;
+	top: 20px;
+	height: 60px;
+}
+
+.banner ul
+{
+	position: absolute;
+	right: 40px;
+	top: 0px;
+	margin: 0px;
+}
+.banner li
+{
+	display: inline-block;
+	padding: 0;
+	float: left;
+	width: 100px;
+	height: 100px;
+	font-size: 14px;
+	list-style: none;
+	
+}
+
+.banner a
+{
+	display: block;		/*连同背景作为链接*/
+	width: 100px;
+	height: 100px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	line-height: 100px; /*将行高和height设置为一样使文字垂直居中*/
+}
+.banner a:hover
+{
+	background: brown;
+}
+
+.maincontainer
+{
+	
+	float: left;
+	width: 100%;
+	padding: 0px;
+	background-color: lightgrey;
+}
+.maincontent
+{
+	min-width: 400px;
+	margin-right: 400px;
+}
+.articlestyle
+{
+	
+	background: white;
+	text-indent: 2em;
+	padding: 20px 40px;
+	margin: 20px;
+	border: solid 1px gainsboro;
+	
+	
+}
+.articlestyle img
+{
+	width: 30%;
+}
+
+.articlestyle h3
+{
+	color: grey;
+	font-family: "book antiqua";
+	font-size: 20px;
+}
+
+.articlestyle address
+{
+	color: grey;
+	font-family: "book antiqua";
+	font-size: 14px;
+	
+}
+
+.pics
+{
+	background: white;
+	padding: 20px 40px;
+	border: solid 1px gainsboro;
+	margin: 20px;
+	text-indent: 40px;
+}
+
+.pic
+{
+	float: left;
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	border: solid thin;
+	margin: 10px;
+	text-align: center;
+	text-indent: 0px;
+	font-size: 10px;
+}
+
+.pic img
+{
+	max-width: 80%;
+	
+}
+
+.pic p
+{
+	font-size: 10px;
+}
+
+.t1 td
+{
+	text-indent: 0px;
+	text-align: center;
+	font-size: 10px;
+	width: 25%;
+}
+
+
+.t1 th
+{
+	text-indent: 0px;
+	text-align: center;
+	background: grey;
+	color: white;
+	width: 25%;
+}
+
+.asidestyle
+{
+	float: left;
+	width: 300px;
+	background: white;
+	font-size: 12px;
+	padding: 20px 40px;
+	/*border: solid 1px gainsboro;*/
+	margin-left: -400px;
+	margin-top: 20px;
+}
+
+.hint
+{
+	color: darkgrey;
+}
+
+.labeltd
+{
+	width: 40%;
+	text-align: right;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+.inputtd
+{
+	width: 60%;
+	text-align: left;
+	padding-bottom: 20px;
+}
+
+.buttonsub
+{
+	width: 100%;
+	background-color: plum;
+	color: white;
+	border-radius: 5px;
+	font-size: 20px;
+}
+.clear
+{
+	clear: both;
+}
+.copy
+{
+	width: 100%;
+	background: black;
+	color: white;
+	padding-top: 20px ;
+	padding-bottom: 20px;
+	text-align: center;
+}
