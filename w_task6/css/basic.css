@@ -1,0 +1,123 @@
+body 
+{
+	padding: 0px;
+	margin: 0px;
+	background: black;
+}
+
+.page1
+{
+	position: relative;
+	left: 50%;
+	margin-left:-490px ;
+	width: 980px;
+	height: 1386px;
+	background: white;
+}
+.pageheader
+{
+	height: 63px;
+	margin: 0px 44px;
+	background: white;
+}
+.container1
+{
+	height: 500px;
+	margin: 30px 44px 100px 44px;
+	background: white;
+}
+.container2
+{
+	height: 620px;
+	margin: 0px 44px 30px 44px;
+	background: white;
+}
+.pagefooter
+{
+	height: 40px;
+	margin: 0px 44px;
+	background: white;
+}
+.intro1
+{
+	padding: 0px;
+	float: right;
+	width: 203px;
+	height: 301px;
+	background: white;
+}
+.article1
+{
+	padding: 0px;
+	width: 641px;
+	height: 500px;
+	background: white;
+}
+.pic1
+{
+	width: 641px;
+	height: 301px;
+	background: url(../img/1.jpg);
+}
+.what
+{
+	float: left;
+	margin-top: 20px;
+	width: 230px;
+	height: 180px;
+	background: white;
+}
+.when
+{
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 200px;
+	height: 180px;
+	background: white;
+}
+.how
+{
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 150px;
+	height: 180px;
+	background: white;
+}
+.article2
+{
+	float: left;
+	width: 415px;
+	height: 620px;
+	background: white;
+}
+.maintext2
+{
+	position: relative;
+}
+.pic2
+{
+	float: right;
+	width: 200px;
+	height: 300px;
+	margin: 20px 0px 20px 20px;
+	
+
+}
+.pic3
+{
+	float: right;
+	width: 458px;
+	height: 275px;
+	background: url(../img/3.jpg);
+	margin-bottom: 27px;
+}
+.cata
+{
+	float: right;
+	width: 458px;
+	height: 318px;
+	background: bisque;
+}
+

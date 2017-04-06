@@ -1,0 +1,35 @@
+.headline
+{
+	width: 892px;
+	height: 2px;
+	background: #938e8c;
+}
+.linecon1
+{
+	width: 203px;
+	height: 2px;
+	background: #cc8091;	
+}
+.linecon2
+{
+	width: 415px;
+	height: 2px;
+	background: #11456B;
+}
+.linecon22
+{
+	float: left;
+	width: 3px;
+	height: 44px;
+	background: #72b16a;
+	margin-left: 40px;
+	margin-top: 8px;
+}
+.linecon23
+{
+	float: left;
+	width: 2px;
+	height: 86px;
+	background: #FFFFFF;
+	margin: 40px 6px;
+}
