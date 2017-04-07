@@ -1,0 +1,47 @@
+.cb1
+{
+	
+	margin: 0px;
+	padding: 0px;
+	width: 110px;
+	height: 61px;
+	background: #d45d5c;
+}
+.cb2
+{
+	float: left;
+	width: 191px;
+	height: 301px;
+	background: #418c59;
+	filter:alpha(Opacity=60);-moz-opacity:0.6;opacity: 0.6
+}
+.cb3
+{
+	float: right;
+	width: 191px;
+	height: 301px;
+	background: #d45d5c;
+	filter:alpha(Opacity=60);-moz-opacity:0.6;opacity: 0.6
+}
+.cb4
+{
+	position: relative;
+	top: 214px;
+	width: 458px;
+	height: 61px;
+	background: brown;
+	filter:alpha(Opacity=60);-moz-opacity:0.6;opacity: 0.6
+}
+.cb5
+{
+	vertical-align: middle;
+}
+.cb5
+{
+	float: left;
+	width: 260px;
+	height: 160px;
+	background: #D45D5C;
+	margin-top: 52px;
+	margin-right: 10px;
+}
