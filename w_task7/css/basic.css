@@ -1,0 +1,567 @@
+body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,input,form,a,p,textarea{
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    /* color:white;*/
+}
+
+img{
+    border: none;
+    display: block;
+}
+
+.clearfloat{
+    zoom: 1;
+}
+
+.clearfloat:after{
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+}
+/*reset样式结束*/
+body
+{
+	width: 100%;
+	min-width: 1280px;
+	overflow: scroll;
+}
+.mypage
+{
+	position: relative;
+	width: 100%;
+	min-width: 1280px;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;  //去掉白边
+	background: white;
+}
+.spacediv
+{
+	width: 100%;
+	height: 100px;
+}
+#start
+{
+	width: 100%;
+	height: 940px;
+}
+#more
+{
+	width: 100%;
+	height: 360px;
+	background: lightgrey;
+	text-align: center;
+	
+}
+#searchcity
+{
+	
+	width: 100%;
+	height: 338px;
+	background-image: url(../img/search1.jpg);
+	background-size: cover;
+}
+#activitypics
+{
+	width: 80%;
+	padding: 30px 40px;
+	margin: auto;
+	background: white;
+}
+#newworld
+{
+	width: 100%;
+	background: white;
+}
+#newera
+{
+	width: 100%;
+	height: 525px;
+	background: brown;
+}
+#volunteer
+{
+	width: 100%;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+#pagefoot
+{
+	width: 100%;
+	background: rgb(50,54,62);
+}
+.navigation
+{
+	width: 100%;
+	height: 60px;
+	background: white;
+	
+}
+#logo img
+{
+	float: left;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+#logo h3
+{
+	font-family: "黑体";
+	float: left;
+	margin-top: 20px;
+}
+.navbar ul
+{
+	float: right;
+	margin-top: 23px;
+	/*top: 23px;
+	left: 500px;*/
+}
+.navbar li
+{
+	display: inline-block;
+	width: 100px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	text-align: center;
+}
+.navbar li a:hover
+{
+	color: #d45d5c;
+}
+.login
+{
+	float: right;
+	width: 100px;
+	margin-top: 18px;
+	
+}
+.login img
+{
+	float: left;
+}
+.login h4
+{
+	float: left;
+	margin-top: 5px;
+	color: #D45D5C;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+
+.starttoex
+{
+	
+	width: 100%;
+	height: 700px;
+	background: url(../img/pic1.jpg);
+	background-size: cover;
+}
+.greycon
+{
+	position: absolute;
+	width: 100%;
+	height: 700px;
+	background: black;
+	opacity: 0.3;
+	/*z-index: -1;*/
+}
+.starttext
+{
+	position: relative;
+	top: 200px;
+	left: 100px;
+	opacity: 1.0;
+	
+}
+.starttext h2
+{
+	font-family: "微软雅黑";
+	font-size: 60px;
+	color: white;
+	margin-bottom: 20px;
+}
+.starttext p
+{
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: white;
+	margin-bottom: 20px;
+}
+.starttext input
+{
+	width: 330px;
+	height: 70px;
+	background: #D45D5C;
+	font-family: "微软雅黑";
+	font-size: 30px;
+	color: white;
+}
+.advantage
+{
+	width: 100%;
+	height: 240px;
+	background: white;
+}
+.advantage li
+{
+	display: inline-block;
+	width: 24.7%;
+	height: 160px;
+	
+}
+.advantage img
+{
+	margin: 20px auto;
+}
+.advantage table
+{
+	width: 100%;
+	font-family: "黑体";
+	font-size: 14px;
+	text-align: center;
+}
+.advantage td
+{
+	border-right: solid grey 2px;
+}
+#more img
+{
+	margin:auto;
+	position: relative;
+	top: 80px;	
+}
+#more h3
+{
+	position: relative;
+	top: 100px;
+	font-family: "黑体";
+	font-size: 54px;
+	color: grey;
+}
+.searchtext p
+{
+	position: relative;
+	top: 30px;
+	margin: auto;
+	font-family: "微软雅黑";
+	font-size: 21px;
+	text-align: center;
+	color: white;
+	margin-bottom: 30px;
+}
+#searchcity table
+{
+	position: relative;
+	top: 40px;
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+#searchcity select
+{
+
+	appearance:none;				//清除样式
+    -moz-appearance:none;
+    -webkit-appearance:none;
+	width: 80%;
+	height: 20px;
+	background: url(../icon/selectar.png)no-repeat scroll right center transparent;
+}
+#searchcity option
+{
+	appearance:none;				//清除样式
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    background: lightgrey;
+    color: gray;
+}
+#searchcity input
+{
+	border-style: none;
+	width: 60%;
+	height: 20px;
+	background: #D45D5C;
+	color: white;
+}
+.activity
+{
+	display: inline-block;	/*以上边界对齐*/
+	vertical-align: top;	
+	width: 20%;
+	margin: 0px 23px;
+	font-family: "微软雅黑";
+	text-align: center;
+}
+.apic
+{
+	width: 100%;
+	border: solid 1px grey;
+	background: white;
+	margin-bottom: 20px;
+}
+.apic img
+{
+	width: 95%;
+	margin: 5px auto;
+}
+.activity h5
+{
+	font-size:14px ;
+	margin-bottom: 6px;
+}
+.activity p
+{
+	font-size: 12px;
+	color: gray;
+}
+.nwintro
+{
+	float: left;
+	width: 30%;
+	height: 565px;
+	background: white;
+	font-family: "微软雅黑";
+	text-align: center;
+}
+.nwintro h5
+{
+	font-size: 22px;
+	margin: 30px auto;
+}
+.nwintro p
+{
+	font-family: "宋体";
+	font-size: 14px;
+	letter-spacing: 0.5em;
+	line-height: 30px;
+	text-align: left;
+	margin: 20px 40px;
+	color: grey;
+}
+.nwintro input
+{
+	width: 100px;
+	height: 30px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	background: white;
+	color: #D45D5C;
+	border: solid 1px #D45D5C;
+	
+}
+.nwpic
+{
+	float: left;
+	width: 70%;
+	height: 565px;
+	background-image: url(../img/newworld.jpg);
+	background-size: cover;
+}
+.nwtext
+{
+	position: relative;
+	top: 100px;
+	width: 420px;
+	margin: auto;
+	vertical-align: middle;
+	text-align: center;
+	font-family: "微软雅黑";
+	color: white;
+}
+.nwtext h4
+{
+	font-size: 50px;
+}
+.nwtext h2
+{
+	font-size: 158px;
+}
+.nwtext p
+{
+	font-size: 22px;
+}
+.neintro
+{
+	float: left;
+	width: 70%;
+	background: blue;
+}
+.neintro1
+{
+	float: left;
+	width: 50%;
+	height: 525px;
+	background: #D45D5C;
+	color: white;
+}
+.neintro2
+{
+	float: left;
+	width: 50%;
+	height: 525px;
+	background: white;
+	color: #D45D5C;
+}
+.nepic
+{
+	float: left;
+	width: 30%;
+	height: 525px;
+	background: url(../img/newera.jpg);
+	background-size: cover;
+}
+.neintro p
+{
+	font-family: "微软雅黑";
+	font-size: 22px;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 160px;	
+}
+.neintro1 input
+{
+	width: 150px;
+	position: relative;
+	left: 50%;
+	margin-left: -75px;
+	color: white;
+	background: #D45D5C;
+	border: solid 1px white;
+}
+.neintro2 input
+{
+	width: 150px;
+	position: relative;
+	left: 50%;
+	margin-left: -75px;
+	color: #D45D5C;
+	background: white;
+	border: solid 1px #D45D5C;
+}
+.clear
+{
+	width: 100%;
+	clear: both;
+}
+#volunteer p
+{
+	font-size: 12px;
+	color: grey;
+	margin-bottom: 100px;
+}
+.agreement
+{
+	float: left;
+	margin: 0 100px;
+	width: 25%;
+	text-align: left;
+	
+}
+.agreement h5
+{
+	font-family: "黑体";
+	font-size: 22px;
+	margin: 0px 40px;
+	margin-top: 0px;
+	line-height: 22px;
+}
+.agreement p
+{
+	font-family:"宋体";
+	font-size: 14px;
+	line-height: 25px;
+	color: gray;
+	margin:10px 40px;
+}
+.agreement input
+{
+	float: right;
+	width: 60px;
+	background: url(../icon/morearrow.png) no-repeat;
+	border: none;
+	font-size: 12px;
+}
+.apply table
+{
+	width: 55%;
+	border-spacing: 20px;
+	margin-top: -20px;
+}
+.apply input
+{
+	width: 100%;
+	height: 50px;
+	font-family: 宋体;
+	font-size: 14px;
+	font-weight: bold;
+	border: lightgrey;
+	border-radius: 5px;
+	background: rgb(237,237,238);
+	text-indent: 2em;	
+}
+.apply textarea
+{
+	width: 100%;
+	height: 150px;
+	font-family: 宋体;
+	font-size: 14px;
+	font-weight: bold;
+	border: lightgrey;
+	border-radius: 5px;
+	padding-top: 10px;
+	background: rgb(237,237,238);	
+	text-indent: 2em;
+}
+#pagefoot
+{
+	text-align: center;
+	font-family: "黑体";
+	color: white;
+	padding-top: 30px;
+}
+
+#pagefoot h4
+{
+	font-size: 22px;
+	font-weight: 200;
+	margin: 30px 0px;
+	
+}
+#pagefoot p
+{
+	font-family: "宋体";
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+#pagefoot input
+{
+	margin: 0px;
+	border: none;
+}
+.followus img
+{
+	margin: 30px auto;
+	display: inline-block;
+}
+.lastdiv
+{
+	width: 100%;
+	font-family: "宋体";
+	font-size: 12px;
+	background: rgb(47,47,56);
+}
+.lastdiv p
+{
+	margin: 30px 100px;
+}
