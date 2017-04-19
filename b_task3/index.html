@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+
+	<body>
+		<ul id="source">
+			<li>北京空气质量:<b>90</b></li>
+			<li>上海空气质量:<b>70</b></li>
+			<li>天津空气质量:<b>80</b></li>
+			<li>广州空气质量:<b>50</b></li>
+			<li>深圳空气质量:<b>40</b></li>
+			<li>福州空气质量:<b>32</b></li>
+			<li>成都空气质量:<b>90</b></li>
+		</ul>
+		<ul id="resort">
+			<!-- 
+    <li>第一名：北京空气质量：<b>90</b></li>
+    <li>第二名：北京空气质量：<b>90</b></li>
+    <li>第三名：北京空气质量：<b>90</b></li>
+     -->
+		</ul>
+		<button id="sort-btn" >排序</button>
+		<script type="text/javascript">
+			/**
+			 * getData方法
+			 * 读取id为source的列表，获取其中城市名字及城市对应的空气质量
+			 * 返回一个数组，格式见函数中示例
+			 */
+			function getData() {
+			var myulchilds = document.getElementById("source").childNodes;
+			var data = new Array();
+			var j=0;
+			for(var i=0;i<myulchilds.length;i++)
+			{
+				if(myulchilds[i].nodeType==1)
+				{
+					data[j]=new Array();
+					data[j][0]=myulchilds[i].innerHTML.substring(0,2);
+					data[j][1]=myulchilds[i].innerHTML.substring(myulchilds[i].innerHTML.length-6,myulchilds[i].innerHTML.length-4);
+					j++;
+				}
+			}
+				/*
+				data = [
+				  ["北京", 90],
+				  ["北京", 90]
+				  ……
+				]
+				*/
+				return data;
+			}
+
+			function sortAqiData(data) {
+				for(var i=0;i<data.length-1;i++)
+				{
+					for (var j=1;j<data.length-i;j++) 
+					{
+						if (parseInt(data[i+j][1])>parseInt(data[i][1]))
+						{
+							var myarr = new Array();
+							myarr=data[i];
+							data[i]=data[i+j];
+							data[i+j]=myarr;
+						}
+					}
+				}
+				return data;
+			}
+
+			function render(data) {
+				var myrank=["第一名","第二名","第三名","第四名","第五名","第六名","第七名"];
+				var resortul=document.getElementById("resort");
+				for (var i=0;i<data.length;i++) {
+					var newli=document.createElement("li");
+					newli.innerHTML=myrank[i]+"："+data[i][0]+"空气质量："+"<b>"+data[i][1]+"</b>";
+					resortul.appendChild(newli);
+				}
+			}
+
+			function btnHandle() {
+				var aqiData = getData();
+				aqiData = sortAqiData(aqiData);
+				render(aqiData);
+			}
+
+			function init() {
+				document.getElementById("sort-btn").setAttribute("onclick","btnHandle()");
+			}
+			init();
+		</script>
+	</body>
+
+</html>
