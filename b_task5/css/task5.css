@@ -1,0 +1,17 @@
+*{
+	margin: 10px;
+}
+.showconstyle{
+	display: flex;
+	align-items: flex-end;
+	height: 120px;
+}
+.boxstyle{
+	margin: 1px;
+	width: 40px;
+	height: 40px;
+	background: red;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
